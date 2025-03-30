@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Galerie d'Images</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .gallery img { width: 200px; height: auto; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue dans ma Galerie d'Images</h1>
+    <div class="gallery">
+        <img src="1.png" alt="Image 1">
+        <img src="2.png" alt="Image 2">
+        <img src="3.png" alt="Image 3">
+        <img src="4.png" alt="Image 4">
+        <img src="5.png" alt="Image 5">
+        <img src="6.png" alt="Image 6">
+        <img src="7.png" alt="Image 7">
+    </div>
+</body>
+</html>
